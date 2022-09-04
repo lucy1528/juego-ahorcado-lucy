@@ -22,6 +22,7 @@ header h1{
     border: 0;
     outline: none;
     position: absolute;
+    left: -100vw;
 }
 
 #palabraSecretaContainer{
