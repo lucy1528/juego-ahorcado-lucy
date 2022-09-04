@@ -16,6 +16,13 @@ header h1{
     color: orangered;
 }
 
+#letraInput{
+    color: white;
+    background: none;
+    border: 0;
+    outline: none;
+    position: absolute;
+}
 
 #palabraSecretaContainer{
     display: flex;

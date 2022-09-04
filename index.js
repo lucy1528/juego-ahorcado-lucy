@@ -4,6 +4,7 @@
     let botonPersonalizar = document.getElementById("botonPersonalizar")
     let palabraSecreta = ""
     let palabraFinal = ""
+    let letraInput = document.querySelector("#letraInput")
     
     
     function palabraSecretaPersonalizada(){
@@ -19,6 +20,7 @@
     const empezarElJuego = () => {
         boton.disabled = true
         botonPersonalizar.disabled = true
+        letraInput.focus()
         if(palabraSecreta===""){
             let palabras = ["HTML", "CSS", "JavaScript", "React", "MongoDb"]
             palabraSecreta = palabras[Math.floor(Math.random()*4)].toLowerCase()
