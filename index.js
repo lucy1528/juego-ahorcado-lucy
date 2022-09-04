@@ -45,7 +45,7 @@
         pincel.lineWidth = 7
         pincel.strokeStyle = 'orange'
         document.addEventListener("keydown", e => {
-            let letraIntroducida = e.keyCode >= 65 && e.keyCode <= 90 ? e.key : alert("Tecla erronea, debes presionar una letra")  
+            let letraIntroducida = e.keyCode >= 65 && e.keyCode <= 90 || e.keyCode === 229 ? e.key : alert("Tecla erronea, debes presionar una letra")  
             
             
             if(!palabraSecreta.includes(letraIntroducida.toLowerCase())){
